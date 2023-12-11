@@ -1579,7 +1579,7 @@
                 "source": "https://git.drupalcode.org/project/addtoany",
                 "issues": "https://www.drupal.org/project/issues/addtoany"
             },
-            "install-path": "../../web/modules/contrib/addtoany"
+            "install-path": "../../modules/contrib/addtoany"
         },
         {
             "name": "drupal/admin_toolbar",
@@ -1663,7 +1663,7 @@
                 "source": "https://git.drupalcode.org/project/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
             },
-            "install-path": "../../web/modules/contrib/admin_toolbar"
+            "install-path": "../../modules/contrib/admin_toolbar"
         },
         {
             "name": "drupal/advagg",
@@ -1727,6 +1727,10 @@
                     "homepage": "https://www.drupal.org/user/3094661"
                 },
                 {
+                    "name": "poker10",
+                    "homepage": "https://www.drupal.org/user/272316"
+                },
+                {
                     "name": "rupl",
                     "homepage": "https://www.drupal.org/user/411999"
                 },
@@ -1746,7 +1750,7 @@
                 "issues": "https://drupal.org/project/issues/advagg",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
-            "install-path": "../../web/modules/contrib/advagg"
+            "install-path": "../../modules/contrib/advagg"
         },
         {
             "name": "drupal/better_exposed_filters",
@@ -1822,7 +1826,7 @@
                 "source": "https://git.drupalcode.org/project/better_exposed_filters",
                 "issues": "https://www.drupal.org/project/issues/better_exposed_filters"
             },
-            "install-path": "../../web/modules/contrib/better_exposed_filters"
+            "install-path": "../../modules/contrib/better_exposed_filters"
         },
         {
             "name": "drupal/captcha",
@@ -1905,7 +1909,7 @@
                 "source": "https://git.drupalcode.org/project/captcha",
                 "issues": "https://www.drupal.org/project/issues/captcha"
             },
-            "install-path": "../../web/modules/contrib/captcha"
+            "install-path": "../../modules/contrib/captcha"
         },
         {
             "name": "drupal/core",
@@ -2068,7 +2072,7 @@
             "support": {
                 "source": "https://github.com/drupal/core/tree/10.1.2"
             },
-            "install-path": "../../web/core"
+            "install-path": "../../core"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -2344,7 +2348,7 @@
                 "source": "https://git.drupalcode.org/project/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
             },
-            "install-path": "../../web/modules/contrib/ctools"
+            "install-path": "../../modules/contrib/ctools"
         },
         {
             "name": "drupal/devel",
@@ -2414,7 +2418,7 @@
                 "issues": "https://gitlab.com/drupalspoons/devel/-/issues",
                 "slack": "https://drupal.slack.com/archives/C012WAW1MH6"
             },
-            "install-path": "../../web/modules/contrib/devel"
+            "install-path": "../../modules/contrib/devel"
         },
         {
             "name": "drupal/easy_breadcrumb",
@@ -2478,7 +2482,7 @@
                     "homepage": "https://www.drupal.org/user/3094661"
                 },
                 {
-                    "name": "RenatoG",
+                    "name": "renatog",
                     "homepage": "https://www.drupal.org/user/3326031"
                 },
                 {
@@ -2500,7 +2504,7 @@
                 "source": "https://git.drupalcode.org/project/easy_breadcrumb",
                 "issues": "https://www.drupal.org/project/issues/easy_breadcrumb"
             },
-            "install-path": "../../web/modules/contrib/easy_breadcrumb"
+            "install-path": "../../modules/contrib/easy_breadcrumb"
         },
         {
             "name": "drupal/entity_reference_revisions",
@@ -2567,7 +2571,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
             },
-            "install-path": "../../web/modules/contrib/entity_reference_revisions"
+            "install-path": "../../modules/contrib/entity_reference_revisions"
         },
         {
             "name": "drupal/field_label",
@@ -2620,7 +2624,7 @@
                 "source": "https://git.drupalcode.org/project/field_label",
                 "issues": "https://www.drupal.org/project/issues/field_label"
             },
-            "install-path": "../../web/modules/contrib/field_label"
+            "install-path": "../../modules/contrib/field_label"
         },
         {
             "name": "drupal/imce",
@@ -2676,7 +2680,7 @@
                 "source": "https://git.drupalcode.org/project/imce",
                 "issues": "https://www.drupal.org/project/issues/imce"
             },
-            "install-path": "../../web/modules/contrib/imce"
+            "install-path": "../../modules/contrib/imce"
         },
         {
             "name": "drupal/jquery_ui",
@@ -2775,7 +2779,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui"
             },
-            "install-path": "../../web/modules/contrib/jquery_ui"
+            "install-path": "../../modules/contrib/jquery_ui"
         },
         {
             "name": "drupal/jquery_ui_datepicker",
@@ -2847,7 +2851,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui_datepicker"
             },
-            "install-path": "../../web/modules/contrib/jquery_ui_datepicker"
+            "install-path": "../../modules/contrib/jquery_ui_datepicker"
         },
         {
             "name": "drupal/jquery_ui_slider",
@@ -2903,7 +2907,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui_slider"
             },
-            "install-path": "../../web/modules/contrib/jquery_ui_slider"
+            "install-path": "../../modules/contrib/jquery_ui_slider"
         },
         {
             "name": "drupal/jquery_ui_touch_punch",
@@ -2962,7 +2966,7 @@
                 "source": "https://www.drupal.org/project/jquery_ui_touch_punch",
                 "issues": "https://www.drupal.org/project/issues/jquery_ui_touch_punch"
             },
-            "install-path": "../../web/modules/contrib/jquery_ui_touch_punch"
+            "install-path": "../../modules/contrib/jquery_ui_touch_punch"
         },
         {
             "name": "drupal/paragraphs",
@@ -3045,7 +3049,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/paragraphs"
             },
-            "install-path": "../../web/modules/contrib/paragraphs"
+            "install-path": "../../modules/contrib/paragraphs"
         },
         {
             "name": "drupal/pathauto",
@@ -3116,7 +3120,7 @@
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
             },
-            "install-path": "../../web/modules/contrib/pathauto"
+            "install-path": "../../modules/contrib/pathauto"
         },
         {
             "name": "drupal/token",
@@ -3188,7 +3192,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
             },
-            "install-path": "../../web/modules/contrib/token"
+            "install-path": "../../modules/contrib/token"
         },
         {
             "name": "drupal/upgrade_status",
@@ -3266,7 +3270,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/upgrade_status"
             },
-            "install-path": "../../web/modules/contrib/upgrade_status"
+            "install-path": "../../modules/contrib/upgrade_status"
         },
         {
             "name": "drupal/views_bootstrap",
@@ -3329,7 +3333,7 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/views_bootstrap"
             },
-            "install-path": "../../web/modules/contrib/views_bootstrap"
+            "install-path": "../../modules/contrib/views_bootstrap"
         },
         {
             "name": "drupal/webform",
@@ -3442,7 +3446,7 @@
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
             },
-            "install-path": "../../web/modules/contrib/webform"
+            "install-path": "../../modules/contrib/webform"
         },
         {
             "name": "drush/drush",
@@ -5333,7 +5337,7 @@
                 "issues": "https://github.com/politsin/jquery-ui-touch-punch/issues",
                 "source": "https://github.com/politsin/jquery-ui-touch-punch/tree/1.0"
             },
-            "install-path": "../../web/libraries/jquery-ui-touch-punch"
+            "install-path": "../../libraries/jquery-ui-touch-punch"
         },
         {
             "name": "psr/cache",

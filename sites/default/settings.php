@@ -813,9 +813,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'sivademo',
-  'username' => 'root',
-  'password' => 'user0123',
+  'database' => 'u364861917_sajuassociates',
+  'username' => 'u364861917_root',
+  'password' => 'SajuAssociates123',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

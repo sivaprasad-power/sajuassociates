@@ -37,6 +37,7 @@ global-styling:
       css/custom/slick.css: {}
       css/custom/style.css: {}
       css/custom/responsive.css: {}
+      css/custom/custom.css: {}
   js:
     js/checkbox.js: {}
     js/navigation-utils.js: {}

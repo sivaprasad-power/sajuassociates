@@ -373,7 +373,8 @@ display:
         type: normal
         title: 'Our Team'
         description: ''
-        weight: -46
+        weight: -47
+        enabled: false
         expanded: false
         menu_name: main
         parent: ''

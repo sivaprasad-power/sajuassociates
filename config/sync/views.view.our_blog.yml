@@ -29,7 +29,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Our blog'
+      title: 'Life Insurance'
       fields:
         title:
           id: title
@@ -175,7 +175,7 @@ display:
           plugin_id: text
           empty: false
           content:
-            value: "<h2>[view:title]</h2>\r\n<p>Keep up to date with our latest blog and events</p>"
+            value: "<h2>[view:title]</h2>\r\n<p>Keep up to date with Life Insurance Plans and their Benefits</p>"
             format: full_html
           tokenize: false
       footer: {  }
@@ -350,6 +350,15 @@ display:
             date_format: custom
             custom_date_format: d-m-Y
             timezone: ''
+            tooltip:
+              date_format: ''
+              custom_date_format: ''
+            time_diff:
+              enabled: false
+              future_format: '@interval hence'
+              past_format: '@interval ago'
+              granularity: 2
+              refresh: 60
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -466,17 +475,17 @@ display:
     display_plugin: page
     position: 2
     display_options:
-      title: 'Our blogs'
+      title: 'Life Insurance Plans'
       pager:
         type: full
         options:
           offset: 0
-          items_per_page: 9
+          items_per_page: 12
           total_pages: null
           id: 0
           tags:
-            next: ›
-            previous: ‹
+            next: 'Next ›'
+            previous: '‹ previous'
             first: «
             last: »
           expose:
@@ -487,7 +496,7 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          quantity: 9
+          quantity: 6
       exposed_form:
         type: bef
         options:
@@ -504,7 +513,7 @@ display:
             general:
               autosubmit: true
               autosubmit_exclude_textfield: false
-              autosubmit_textfield_delay: 500
+              autosubmit_textfield_delay: 700
               autosubmit_hide: true
               input_required: false
               allow_secondary: false
@@ -536,6 +545,20 @@ display:
                   placeholder_text: ''
                   collapsible: false
                   is_secondary: false
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: true
+          content:
+            value: 'No result found. Please search with another keyword.'
+            format: restricted_html
+          tokenize: false
       sorts:
         created:
           id: created
@@ -637,7 +660,7 @@ display:
           entity_type: node
           entity_field: title
           plugin_id: string
-          operator: word
+          operator: starts
           value: ''
           group: 1
           exposed: true
@@ -686,7 +709,9 @@ display:
         options:
           view_mode: teaser
       defaults:
+        empty: false
         title: false
+        use_ajax: false
         pager: false
         exposed_form: false
         style: false
@@ -695,14 +720,16 @@ display:
         filters: false
         filter_groups: false
         header: false
+      use_ajax: true
       header: {  }
       display_extenders: {  }
-      path: our-blogs
+      path: lic-plans
       menu:
         type: normal
-        title: 'Our Blogs'
+        title: 'Life Insurance Plans'
         description: ''
-        weight: -47
+        weight: -48
+        enabled: true
         expanded: false
         menu_name: main
         parent: ''
@@ -716,7 +743,6 @@ display:
         - url.query_args
         - 'url.query_args:sort_by'
         - 'url.query_args:sort_order'
-        - user
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }

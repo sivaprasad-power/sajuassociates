@@ -1,0 +1,30 @@
+uuid: a69a5a55-f3d0-488c-a297-4397ae4ba692
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5a1579df-2ef3-4a7e-aece-feff158139b5'
+  module:
+    - block_content
+    - system
+  theme:
+    - january
+id: january_officemap
+theme: january
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:5a1579df-2ef3-4a7e-aece-feff158139b5'
+settings:
+  id: 'block_content:5a1579df-2ef3-4a7e-aece-feff158139b5'
+  label: 'Office Map'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact

@@ -317,6 +317,20 @@ display:
                   placeholder_text: ''
                   collapsible: false
                   is_secondary: false
+      empty:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text
+          empty: true
+          content:
+            value: 'No result found. Please search with another keyword.'
+            format: basic_html
+          tokenize: false
       sorts:
         created:
           id: created
@@ -419,6 +433,7 @@ display:
         options:
           view_mode: teaser
       defaults:
+        empty: false
         pager: false
         exposed_form: false
         style: false
@@ -432,7 +447,8 @@ display:
         type: normal
         title: 'Case Studies'
         description: ''
-        weight: 3
+        weight: -43
+        enabled: false
         expanded: false
         menu_name: main
         parent: ''

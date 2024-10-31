@@ -3,11 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_media_image
     - taxonomy.vocabulary.categories
     - taxonomy.vocabulary.tags
   module:
-    - better_exposed_filters
     - node
     - taxonomy
     - user
@@ -170,7 +168,7 @@ display:
         type: some
         options:
           offset: 0
-          items_per_page: 6
+          items_per_page: 8
       exposed_form:
         type: basic
         options:
@@ -252,6 +250,19 @@ display:
     display_plugin: block
     position: 1
     display_options:
+      defaults:
+        relationships: false
+      relationships:
+        reverse__node__field_category:
+          id: reverse__node__field_category
+          table: taxonomy_term_field_data
+          field: reverse__node__field_category
+          relationship: none
+          group_type: group
+          admin_label: field_category
+          entity_type: taxonomy_term
+          plugin_id: entity_reverse
+          required: true
       display_description: ''
       display_extenders: {  }
     cache_metadata:

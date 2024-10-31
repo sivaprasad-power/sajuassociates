@@ -5,10 +5,18 @@ dependencies:
   module:
     - node
 id: article
-label: Article
+label: 'Life Insurance Plans'
 type: 'canonical_entities:node'
-pattern: 'article/[node:title]'
-selection_criteria: {  }
+pattern: 'life-insurance/[node:title]'
+selection_criteria:
+  3f46584d-3f75-4d17-be00-97beba58d39d:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 3f46584d-3f75-4d17-be00-97beba58d39d
+    context_mapping:
+      node: node
+    bundles:
+      article: article
 selection_logic: and
 weight: 0
 relationships: {  }

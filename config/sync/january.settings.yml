@@ -2,7 +2,7 @@ _core:
   default_config_hash: Ylohp6sdrL1dU4v-KcXzXTP-U8BAMgh4NWJA9eGHtO4
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: themes/custom/january/favicon.ico
+  path: themes/custom/january/logo.ico
   use_default: false
 features:
   comment_user_picture: true
@@ -10,18 +10,22 @@ features:
   favicon: true
   node_user_picture: false
 logo:
-  path: themes/custom/january/logo.svg
-  use_default: true
+  path: 'public://SAJU ASSOCIATES 2024 _3.png'
+  use_default: false
 third_party_settings:
   shortcut:
     module_link: true
 mobile_menu_all_widths: 0
 site_branding_bg_color: default
-twitter: 'https://twitter.com/'
-facebook: 'https://facebook.com/'
-instagram: 'https://www.instagram.com/'
+twitter: 'https://www.linkedin.com/in/sajukumarr/'
+facebook: 'https://www.facebook.com/sajuassociates/'
+instagram: 'https://www.instagram.com/sajuassociates/?igshid=NGVhN2U2NjQ0Yg%3D%3D'
 youtube: 'https://youtube.com/'
-phone: 'XXXX XXXX XXX'
-email: email@domain.tld
-address: '123 Abc Street, Manchester, NH 64 ABC Street, Suite 302, Concord, VO03301 10 Xyz Street, AU'
-management_message: 'January Portfolio Management Pty Ltd'
+phone: '9194477 77244'
+email: sajukumarr@gmail.com
+address: "SAJU ASSOCIATES, CUSTOMER SERVICE ZONE, FIRST FLOOR, SHOP NO:8 TC-79, LIC's PREMIUM POINT, 2148 ENCHAKKAL JUNCTION, NH BYPASS, TRIVANDRUM-695008"
+management_message: ''
+logo_footer:
+  - '24'
+logo_footer_use: 0
+logo_footer_image: {  }

@@ -1,0 +1,26 @@
+uuid: 6d465061-3f26-42b1-b7f6-49257a086f30
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.newslatter_signup
+  module:
+    - webform
+  theme:
+    - january
+id: webform
+theme: january
+region: footer_third
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  label_display: '0'
+  provider: webform
+  webform_id: newslatter_signup
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility: {  }
